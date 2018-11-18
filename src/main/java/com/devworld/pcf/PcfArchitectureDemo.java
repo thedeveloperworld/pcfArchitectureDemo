@@ -10,6 +10,8 @@ public class PcfArchitectureDemo {
 
     @GetMapping(value="/welcome")
     public String welcome(){
-        return "Welcome to PCF world";
+        return "<br><center><h1 style=\"color:Blue;\"><b>  Welcome  to PCF World :  </h1></b></br>" +
+                "<br></br>"+
+                "<center>This is first version</center>";
     }
 }
